@@ -1,0 +1,12 @@
+// Copyright (c) 2008 AdCopy
+// Author: Jeff Weisberg
+// Created: 2008-Dec-15 19:19 (EST)
+// Function: 
+//
+// $Id: std_reply.proto,v 1.3 2011/01/13 17:05:11 jaw Exp $
+
+message ACPStdReply {
+	required int32		status_code	= 1;
+	optional string		status_message	= 2;
+}
+
